@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+html{font-size: 20px;}
+/*content start*/
+
+/*search start*/
+.content .tmall-search{position: relative;width: 1230px;height: 70px;padding:30px 0;margin:0 auto;}
+.content .tmall-search .search{width: 624px;height: 70px;margin:0 auto;}
+.content .tmall-search .search .search-box{display:inline-block;width: 624px;height: 42px;font-size:0;}
+.content .tmall-search .search .search-box > input[type="text"]{display: inline-block;width: 480px;height: 22px;
+    padding:9px 5px;border:1px solid #FF0036;outline: none;font-size:16px;line-height: 22px;color: #000;}
+.content .tmall-search .search .search-box > input[type="text"]::-webkit-input-placeholder{ font-weight: 300;font-size: 14px;color:#ccc;}
+.content .tmall-search .search .search-box > input[type="button"]{display: inline-block;width:130px;height: 42px;
+    border:1px solid #FF0036;background: #FF0036;color:#fff;font-size:20px;line-height: 37px;vertical-align: top;}
+.content .tmall-search .search .search-keywords{display:inline-block;width: 620px;height: 30px;font-size:16px;}
+.content .tmall-search .search .search-keywords > a{display: inline-block;padding:0 12px;font-size:12px;
+    color: #999999;line-height: 1.1;text-align: center;}
+.content .tmall-search .search .search-keywords > a:nth-child(1){padding-left:0;text-align: left;}
+.content .tmall-search .search .search-keywords > a + a{border-left: 1px solid #e5e5e5}
+.content .tmall-search .search .search-keywords .col-a-bg{color: #FF0036}
+
+/* logo*/
+.content .tmall-search .logo{position: absolute;top:0;left: 0;width: 200px;height: 130px;}
+.content .tmall-search .logo img{width: 100%;height: 100%;}
+/* logo*/
+
+/*search start*/
+
+/*category start*/
+.content .category .main-nav{width: 61.5rem;height: 1.8rem;margin:auto;font-size:.8rem;font-weight: 400;}
+.content .category .main-nav .classify{display: inline-block;margin-left:9rem;}
+.content .category .main-nav a{display: inline-block;height:1.8rem;padding:0 .45rem;line-height: 1.8rem}
+.content .category .main-nav a img{width: 5rem;height: 1.5rem;margin-bottom: .15rem;}
+
+/*content end*/
