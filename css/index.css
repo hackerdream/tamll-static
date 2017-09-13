@@ -47,7 +47,7 @@ html{font-size: 20px;}
 .content .category .main-category .banner .banner-btn a:hover{background: #fff;}
 
 /*category sidebar*/
-.content .category .category-sidebar{position: absolute;top:-1.9rem;left:0.7rem;display: inline-block;width: 10rem;color:#fff;}
+.content .category .category-sidebar{position: absolute;top:-1.9rem;left:5.3rem;display: inline-block;width: 10rem;color:#fff;}
 .content .category .category-sidebar .iconfont{padding-right:0.5rem;}
 .content .category .category-sidebar .sidebar-title{height: 1.9rem;padding:0 0.65rem;background: #FF0036;font-size:.8rem;line-height: 1.8rem;}
 .content .category .category-sidebar .sidebar > li{height: 1.56rem;padding:0 0.65rem;background: #696969;line-height:1.56rem;opacity:1;font-weight: 300;}
