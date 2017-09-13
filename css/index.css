@@ -177,6 +177,7 @@ html{font-size: 20px;background: #F5F5F5}
 {width: 169px;height: 77px;}
 
 
+/*brand wall*/
 .content .brand-box{width: 100%;height: 720px;margin-top: 40px;}
 .content .brand-wall{width: 1230px;height: 420px;margin: auto;}
 .content .brand-wall .brand-wall-first{width: 231px;}
@@ -188,4 +189,21 @@ html{font-size: 20px;background: #F5F5F5}
 .content .brand-wall li > p{height: 60px;background: #fff;line-height: 60px;font-size: 16px;text-align: left;padding-left: 14px;}
 .content .brand-wall li > p > span{padding:0 10px;text-align: center;text-overflow: clip;font-size: 12px;}
 .content .brand-wall li > p .iconfont{font-size: 24px;vertical-align: middle;float: right;padding-right: 14px;}
+
+/*brand img*/
+.content .brand-img{width: 1230px;margin:auto;}
+.content .brand-img ul li{position: relative;float:left;width: 120px;height: 110px;background: #fff;}
+.content .brand-img ul li a{display: inline-block;width: 120px;height: 110px;}
+.content .brand-img ul li a img{width: 120px;height: 110px;}
+.content .brand-img ul li .brand-mask{position: absolute;top:0;left: 0;display: none;width: 120px;height: 110px;background: rgba(0,0,0,0.8);}
+.content .brand-img ul li:hover .brand-mask{display: block;}
+.content .brand-img ul li .brand-mask p{height: 30px;}
+.content .brand-img ul li .brand-mask p .iconfont{padding-right: 10px;color: #fff;}
+.content .brand-img ul li .brand-mask .brand-mask-content{width: 100%;text-align: center;color: #fff;}
+.content .brand-img ul li .brand-mask input{display: block;width: 64px;height: 20px;background: #FF0036;margin: 0 auto;border: 0;
+    border-radius: 10px;color: #fff;cursor: pointer;;line-height: 12px;}
+.content .brand-img ul  .change-mask a{display: block;width: 120px;height: 110px;background: #fff;}
+.content .brand-img ul  .change-mask a:hover{background: #FF0036;color: #fff;}
+.content .brand-img ul  .change-mask a .iconfont{font-size: 40px;line-height: 70px;padding-left: 40px;}
+.content .brand-img ul  .change-mask a p{text-align: center;}
 /*content end*/
