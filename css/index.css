@@ -35,7 +35,8 @@ html{font-size: 20px;}
 .content .category .main-nav a img{width: 5rem;height: 1.5rem;margin-bottom: .15rem;}
 
 /*category banner*/
-.content .category .main-category{position: relative;width: 100%;height: 25rem;border-top: 2px solid #FF0036;background:#E8E8E8; }
+.content .category .main-category{width: 100%;height: 25rem;border-top: 2px solid #FF0036;background:#E8E8E8; }
+.content .category .main-category .banner-box{position: relative;width: 1230px;height: 500px;margin:auto;}
 .content .category .main-category .banner {;width: 61.5rem;margin: auto;overflow: hidden;}
 .content .category .main-category .banner .banner-list{width: 250rem;height: 25rem;}
 .content .category .main-category .banner .banner-list li{float: left;height: 25rem;width: 61.5rem;}
@@ -47,7 +48,7 @@ html{font-size: 20px;}
 .content .category .main-category .banner .banner-btn a:hover{background: #fff;}
 
 /*category sidebar*/
-.content .category .category-sidebar{position: absolute;top:-1.9rem;left:5.3rem;display: inline-block;width: 10rem;color:#fff;}
+.content .category .category-sidebar{position: absolute;top:-1.9rem;left:0;display: inline-block;width: 10rem;color:#fff;}
 .content .category .category-sidebar .iconfont{padding-right:0.5rem;}
 .content .category .category-sidebar .sidebar-title{height: 1.9rem;padding:0 0.65rem;background: #FF0036;font-size:.8rem;line-height: 1.8rem;}
 .content .category .category-sidebar .sidebar > li{height: 1.56rem;padding:0 0.65rem;background: #696969;line-height:1.56rem;opacity:1;font-weight: 300;}
