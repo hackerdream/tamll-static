@@ -211,7 +211,7 @@ html{font-size: 20px;background: #F5F5F5}
 
 /*nav img*/
 .content .nav-img-box{display: block;width: 100%;height: 580px;margin-top: 10px;}
-.content .nav-img-box .nav-img{;width: 1230px;height: 580px;margin: auto;background: #00aaff;}
+.content .nav-img-box .nav-img{;width: 1230px;height: 576px;margin: auto;}
 .content .nav-img-box .nav-img ul li{float: left;width: 238px;height: 476px;}
 .content .nav-img-box .nav-img ul li + li{margin-left: 10px;}
 .content .nav-img-box .nav-img ul li > p{height: 36px;line-height: 36px;text-align: center;background: #FF0D40;font-size: 18px;color: #fff;}
@@ -223,4 +223,6 @@ html{font-size: 20px;background: #F5F5F5}
 .content .nav-img-box .nav-img ul li .img-item .item-content .img-box{width: 140px;height: 140px;border-radius: 50%;background: #F8F8F8;margin:10px auto;}
 .content .nav-img-box .nav-img ul li .img-item .item-content .img-box > img{width: 140px;transition: .3s;border-radius: 50%;}
 .content .nav-img-box .nav-img ul li .img-item a:hover .item-content .img-box > img{transform: scale(1.2,1.1)}
+.content .nav-img-box .nav-img > a{display: block;width:1230px;height: 90px;padding-top: 10px;}
+.content .nav-img-box .nav-img > a img{width:1230px;height: 90px;}
 /*content end*/
