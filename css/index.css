@@ -182,7 +182,7 @@ html{font-size: 20px;background: #F5F5F5}
 .content .brand-wall{width: 1230px;height: 420px;margin: auto;}
 .content .brand-wall .brand-wall-first{width: 233px;}
 .content .brand-wall .brand-wall-second{width: 480px;}
-.content .brand-wall .brand-wall-third{width: 480pxx;}
+.content .brand-wall .brand-wall-third{width: 480px;}
 .content .brand-wall li{display: inline-block;}
 .content .brand-wall li + li{margin-left: 14px;}
 .content .brand-wall li > img{height: 316px;}
@@ -205,9 +205,9 @@ html{font-size: 20px;background: #F5F5F5}
 .content .brand-img ul  .change-mask a{display: block;width: 120px;height: 110px;background: #fff;text-align:center;}
 .content .brand-img ul  .change-mask a:hover{background:red;color: #fff;}
 
-.content .brand-img ul  .change-mask a .iconfont{position: absolute;top: calc(50% - 20px);left: calc(50% - 20px);display:block;transition:.4s;width:40px;height:40px;font-size:30px;}
+.content .brand-img ul  .change-mask a .iconfont{position: absolute;top: calc(50% - 30px);left: calc(50% - 20px);display:block;transition:.4s;width:40px;height:40px;font-size:30px;}
 .content .brand-img ul  .change-mask a:hover .iconfont{transform:rotate(320deg);}
-.content .brand-img ul  .change-mask a p{position: absolute;top: calc(50% + 20px);left: calc(50% - 20px)}
+.content .brand-img ul  .change-mask a p{position: absolute;top: calc(50% + 10px);left: calc(50% - 20px)}
 
 /*nav img*/
 .content .nav-img-box{display: block;width: 100%;height: 580px;margin-top: 10px;}
