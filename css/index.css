@@ -353,10 +353,10 @@ html{font-size: 20px;background: #F5F5F5}
 .content .right-bar ul .tmall-icon:hover span{background: #ff0036;}
 .content .right-bar ul .tmall-icon:hover{background: #000;}
 .content .right-bar ul li .left-tip{position: absolute;top:0;left: -140px;height: 35px;
-    width: 100px;background: #494949;color: #fff;line-height: 35px;font-size: 14px;transition:left .8s,opacity .3s;opacity:0; }
+    width: 100px;background: #494949;color: #fff;line-height: 35px;font-size: 14px;transition:left .8s,opacity .3s;opacity:0; visibility:hidden;}
 .content .right-bar ul li .left-tip:after{position: absolute;top: 12px;right: -5px;content:'';padding: 1px;
     border:5px solid #494949;transform: rotate(45deg);}
-.content .right-bar ul li:hover .left-tip{left: -100px;background: #494949;opacity: 1;}
+.content .right-bar ul li:hover .left-tip{left: -100px;background: #494949;opacity: 1;visibility: visible;}
 .content .right-bar ul .right-code span span{position: absolute;left: -140px;bottom: 0;display: none;z-index: 110;}
 .content .right-bar ul .right-code span span img{width: 140px;height: 140px;}
 .content .right-bar ul .right-code:hover span span{display: block;}
