@@ -362,6 +362,7 @@ html{font-size: 20px;background: #F5F5F5}
 .content .right-bar .icon-tag:after{position: absolute;top:15px;right: -5px;content: '';padding: 2px;width: 0;height: 0;border: 10px solid #494949;
 transform:rotate(45deg);border-left: 0;border-bottom: 0;z-index:-2;}
 .content .right-bar .r-center-fix .associator a:hover .icon-tag{left: -100px;opacity: 1;visibility:visible;}
+.content .right-bar .r-center-fix .func a:hover .icon-tag{left: -100px;opacity: 1;visibility:visible;}
 /*content end*/
 /*footer start*/
 
