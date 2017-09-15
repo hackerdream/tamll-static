@@ -320,7 +320,7 @@ html{font-size: 20px;background: #F5F5F5}
 .content .you-love .you-love-box ul li a .item-info .item-price .price-decimal{font-size: 14px;}
 
 /*left fixed*/
-.content .left-fix{position: fixed;bottom: 100px;left: 60px;width: 36px;height: 330px;background: #fff;}
+.content .left-fix{position: fixed;top: 50%;left: 50%;width: 36px;height: 330px;margin:-100px 0 0 -660px;background: #fff;}
 .content .left-fix ul li{float: left;width: 36px;height: 36px;background: rgba(0,0,0,.6);font-size: 12px;line-height: 1;}
 .content .left-fix ul li + li{margin-top: 1px;}
 .content .left-fix ul .left-fix-title{text-align: center;line-height: 36px;color: #fff;background:#ff0036; }
