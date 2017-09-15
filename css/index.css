@@ -309,7 +309,8 @@ html{font-size: 20px;background: #F5F5F5}
 .content .you-love .you-love-box .you-love-title:after{position: absolute;top: 10px;right: -20px;display: block;content: '';
     height: 0;width: 50px;border-top: 1px solid #979797;}
 .content .you-love .you-love-box .you-love-title .iconfont{color: #ff0036;font-size: 24px;vertical-align: middle;}
-.content .you-love .you-love-box ul li{float: left;margin-left: 5px;margin-bottom: 5px;}
+.content .you-love .you-love-box ul li{float: left;margin-left: 5px;margin-bottom: 5px;border:1px solid transparent;}
+.content .you-love .you-love-box ul li:hover{border:1px solid #ff0036;}
 .content .you-love .you-love-box ul li a{display: inline-block;width: 235px;height: 326px;background: #fff;text-align: center;}
 .content .you-love .you-love-box ul li a img{width: 100%;height: 230px;margin: auto;}
 .content .you-love .you-love-box ul li a .item-info{position: relative;width: 213px;height: 67px;padding: 14px 12px 8px;text-align: left;}
@@ -356,8 +357,31 @@ html{font-size: 20px;background: #F5F5F5}
 .content .right-bar .r-bottom-fix span a .iconfont{font-size: 18px;}
 .content .right-bar .r-bottom-fix span a span{display: block;width: 100%;height:20px;text-align: center;line-height: 1;}
 
-.content .right-bar .icon-tag {position: absolute;top:0;left: -120px;display: none;width: 100px;height:40px;color: #fff;background: #494949;text-align: center;line-height: 40px;}
-.content .right-bar .icon-tag:after{position: absolute;top:10px;right: -5px;content: '';padding: 2px;width: 0;height: 0;border: 10px solid #494949;
+.content .right-bar .icon-tag {position: absolute;top:0;left: -190px;width: 100px;height:40px;color: #fff;background: #494949;text-align: center;
+    line-height: 40px;opacity: 0;transition:left .4s,opacity .3s;visibility:hidden;}
+.content .right-bar .icon-tag:after{position: absolute;top:15px;right: -5px;content: '';padding: 2px;width: 0;height: 0;border: 10px solid #494949;
 transform:rotate(45deg);border-left: 0;border-bottom: 0;z-index:-2;}
-.content .right-bar .r-center-fix .associator a:hover .icon-tag{display: block;}
+.content .right-bar .r-center-fix .associator a:hover .icon-tag{left: -100px;opacity: 1;visibility:visible;z-index:10;}
 /*content end*/
+/*footer start*/
+
+.foot-info{width: 100%;height: 564px;margin-top: 10px;background: #fff;border-top:1px solid #E5E4E4;}
+.foot-info .footer-ensure{;width: 1190px;height:100px;margin:30px auto;background: url('../images/footer/1.jpg');}
+.foot-info .footer-ensure a{float: left;display:block;width:297.4px;height: 100px;}
+
+.foot-info .footer-desc{width: 1190px;height: 240px;margin: auto;padding-top:20px;background: url('../images/footer/2.jpg') no-repeat 50px bottom;border-top: 1px solid #E5E4E4;}
+.foot-info .footer-desc ul li{float:left;padding-right: 176px;}
+.foot-info .footer-desc ul li.footer-code{padding-right:0;}
+.foot-info .footer-desc ul li.footer-desc-first{padding-left: 50px;}
+.foot-info .footer-desc ul li p{font-size: 16px;line-height: 30px;font-weight: bold;}
+.foot-info .footer-desc ul li a{display: block;padding: 3px 0;font-size:12px;line-height: 20px;color: #8b8b8b;}
+
+.foot-info .footer-copyright{width: 100%;border-top: 4px solid #ff0036;background: #000;}
+.foot-info .footer-copyright .copyright-box{width:1190px;margin: auto;color:#fff; }
+.foot-info .footer-copyright .copyright-box .footer-tmallinfo{height:30px;font-size:12px;line-height: 25px;padding-bottom: 10px;font-weight: normal;}
+.foot-info .footer-copyright .copyright-box .footer-otherinfo{height:30px;font-size:12px;line-height: 25px;}
+.foot-info .footer-copyright .copyright-box p{height: 20px;font-size:12px;line-height: 20px;color:#a4a4a4;}
+.foot-info .footer-copyright .copyright-box p a{display: inline-block;padding-right:50px;}
+.foot-info .footer-copyright .copyright-box p .footer-icon img{width: 24px;height: 24px;vertical-align: middle;}
+.foot-info .footer-copyright .copyright-box span{display: block;height: 20px;font-size:12px;line-height: 20px;color:#686868;padding:10px 0;}
+.foot-info .footer-copyright .copyright-box .footer-warning{height: auto;}
