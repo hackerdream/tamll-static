@@ -330,39 +330,7 @@ html{font-size: 20px;background: #F5F5F5}
 
 /*right bar*/
 
-.content .right-bar{position:fixed;top:0;right: 0;height:780px;width: 35px;background: #000;}
-@media screen and (max-height:650px) {
-    .content .right-bar{height: 540px;}
-}
-.content .right-bar span{position: relative;display: inline-block;width: 100%;}
-.content .right-bar span a{position: relative;display: inline-block;}
-.content .right-bar .r-center-fix .associator {width: 100%;height: 210px;border-bottom:1px solid #E5E4E4;border-bottom:1px solid #E5E4E4;}
-.content .right-bar .r-center-fix .associator a{position: absolute;bottom: 0;right:0;width: calc(100% - 8px);height: 40px;padding: 0 4px;}
-.content .right-bar .r-center-fix .associator:hover a{background: #ff0036;cursor: pointer;}
-.content .right-bar .r-center-fix .associator .iconfont{color: #fff;font-size: 24px;}
-@media screen and (max-height:650px) {
-    .content .right-bar .r-center-fix .associator{height: 60px;}
-}
-.content .right-bar .r-center-fix .shopping-car{display: block;color: #fff;font-size: 16px;text-align: center;border-bottom: 1px solid #E5E4E4;padding: 0 4px;}
-.content .right-bar .r-center-fix .shopping-car .iconfont{color: #ff0036;font-size: 20px;margin-left: 1px;}
-.content .right-bar .r-center-fix .shopping-car:hover{background: #ff0036;cursor: pointer;}
-.content .right-bar .r-center-fix .shopping-car:hover .iconfont{color: #fff;}
-.content .right-bar .r-center-fix .func a {display: block;width: 100%;padding: 5px 4px;}
-.content .right-bar .r-center-fix .func a .iconfont{color: #fff;margin-left: 4px;font-size: 20px;}
-.content .right-bar .r-center-fix .func a:hover{background: #ff0036;cursor: pointer;}
 
-.content .right-bar .r-bottom-fix span {position: absolute;bottom: 5px;left: 0;}
-.content .right-bar .r-bottom-fix span a {display: block;width: 100%;padding: 2px 4px;color: #fff;font-size: 10px;text-align: center;overflow: hidden;}
-.content .right-bar .r-bottom-fix span a:hover{background: #ff0036;cursor: pointer;}
-.content .right-bar .r-bottom-fix span a .iconfont{font-size: 18px;}
-.content .right-bar .r-bottom-fix span a span{display: block;width: 100%;height:20px;text-align: center;line-height: 1;}
-
-.content .right-bar .icon-tag {position: absolute;top:0;left: -190px;width: 100px;height:40px;color: #fff;background: #494949;text-align: center;
-    line-height: 40px;opacity: 0;transition:left .4s,opacity .3s;visibility:hidden;z-index:100;}
-.content .right-bar .icon-tag:after{position: absolute;top:15px;right: -5px;content: '';padding: 2px;width: 0;height: 0;border: 10px solid #494949;
-transform:rotate(45deg);border-left: 0;border-bottom: 0;z-index:-2;}
-.content .right-bar .r-center-fix .associator a:hover .icon-tag{left: -100px;opacity: 1;visibility:visible;}
-.content .right-bar .r-center-fix .func a:hover .icon-tag{left: -100px;opacity: 1;visibility:visible;}
 /*content end*/
 /*footer start*/
 

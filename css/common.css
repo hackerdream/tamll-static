@@ -2,7 +2,7 @@
 
 
 /*left nav start*/
-.tmall-head {width:100%;height: 30px;background:#f2f2f2;border:1px solid #e5e5e5;box-sizing:border-box;}
+.tmall-head {width:100%;height: 30px;background:#f2f2f2;border:1px solid #e5e5e5;border-left:0;border-right: 0;}
 .h-nav{width:1230px;height:30px;margin:0 auto;font:12px "Microsoft YaHei";color:#999;}
 .h-nav .l-nav{width: 240px;height: 30px;line-height:30px;}
 .h-nav .l-nav p{display: inline-block;width:240px;line-height:30px;}
@@ -23,12 +23,12 @@
 /*my product*/
 .h-nav .r-nav .menu-list .menu-product a{display:inline-block;width: 72px;height: 30px;line-height: 30px;}
 .h-nav .r-nav .menu-list .menu-product a:hover{color:#FF0036;text-decoration: underline;}
-.h-nav .r-nav .menu-list .menu-product{display:none;position: absolute;top:31px;left: -1px;
+.h-nav .r-nav .menu-list .menu-product{display:none;position: absolute;top:30px;left: -1px;
     height: 60px;padding: 10px;border:1px solid #e5e5e5;border-top: none;background:#fff;}
 .h-nav .r-nav .menu-list:hover .menu-product{display: block;}
 /*my product*/
 /*my collection*/
-.h-nav .r-nav .menu-list .menu-collection{display:none;position: absolute;top:31px;left: -1px;
+.h-nav .r-nav .menu-list .menu-collection{display:none;position: absolute;top:30px;left: -1px;
     height: 60px;padding: 10px;background:#fff;border:1px solid #e5e5e5;border-top: none;}
 .h-nav .r-nav .menu-list:hover .menu-collection{display: block;}
 .h-nav .r-nav .menu-list .menu-collection a{display:inline-block;width: 72px;height: 30px;line-height: 30px;}
