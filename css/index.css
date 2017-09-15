@@ -331,7 +331,7 @@ html{font-size: 20px;background: #F5F5F5}
 /*right bar*/
 
 .content .right-bar{position:fixed;top:0;right: 0;height:732px;width: 35px;background: #000;}
-@media screen and (max-height:700px) {
+@media screen and (max-height:650px) {
     .content .right-bar{height: 541px;}
 }
 .content .right-bar span{position: relative;display: inline-block;width: 100%;}
@@ -341,7 +341,7 @@ html{font-size: 20px;background: #F5F5F5}
 .content .right-bar .r-center-fix .associator:hover a{background: #ff0036;cursor: pointer;}
 .content .right-bar .r-center-fix .associator .iconfont{color: #fff;font-size: 24px;}
 @media screen and (max-height:650px) {
-    .content .right-bar .r-center-fix .associator{height: 200px;}
+    .content .right-bar .r-center-fix .associator{height: 100px;}
 }
 .content .right-bar .r-center-fix .shopping-car{display: block;color: #fff;font-size: 16px;text-align: center;border-bottom: 1px solid #E5E4E4;padding: 0 4px;}
 .content .right-bar .r-center-fix .shopping-car .iconfont{color: #ff0036;font-size: 20px;margin-left: 1px;}
